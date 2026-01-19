@@ -181,14 +181,15 @@ p {
 .hero::before {
     content: '';
     position: absolute;
-    top: -15%;
-    right: -8%;
-    width: 60%;
-    height: 70%;
+    top: -10%;
+    right: -5%;
+    width: 75%;
+    height: 85%;
     background: radial-gradient(ellipse at 40% 50%,
-        rgba(27, 153, 139, 0.25) 0%,
-        rgba(27, 153, 139, 0.15) 30%,
-        rgba(27, 153, 139, 0.08) 50%,
+        rgba(27, 153, 139, 0.45) 0%,
+        rgba(27, 153, 139, 0.35) 20%,
+        rgba(27, 153, 139, 0.25) 35%,
+        rgba(27, 153, 139, 0.15) 50%,
         transparent 70%);
     border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
     z-index: 1;
@@ -198,14 +199,15 @@ p {
 .hero::after {
     content: '';
     position: absolute;
-    bottom: -20%;
-    left: -10%;
-    width: 55%;
-    height: 65%;
+    bottom: -15%;
+    left: -8%;
+    width: 70%;
+    height: 75%;
     background: radial-gradient(ellipse at 60% 50%,
-        rgba(239, 118, 122, 0.22) 0%,
-        rgba(239, 118, 122, 0.14) 30%,
-        rgba(239, 118, 122, 0.08) 50%,
+        rgba(212, 165, 165, 0.5) 0%,
+        rgba(212, 165, 165, 0.38) 20%,
+        rgba(212, 165, 165, 0.28) 35%,
+        rgba(212, 165, 165, 0.18) 50%,
         transparent 70%);
     border-radius: 54% 46% 62% 38% / 48% 55% 45% 52%;
     z-index: 1;
@@ -214,16 +216,16 @@ p {
 /* Botanical illustration container */
 .hero .botanical-bg {
     position: absolute;
-    right: -5%;
-    top: 10%;
-    width: 45%;
-    height: 80%;
+    right: 0%;
+    top: 5%;
+    width: 55%;
+    height: 90%;
     background-image: url('../assets/images/botanical-stem.svg');
     background-repeat: no-repeat;
     background-position: center right;
     background-size: contain;
     z-index: 1;
-    opacity: 0.7;
+    opacity: 0.95;
     pointer-events: none;
 }
 
@@ -439,13 +441,14 @@ p {
     position: absolute;
     top: -20%;
     left: -15%;
-    width: 50%;
-    height: 60%;
+    width: 65%;
+    height: 75%;
     background: radial-gradient(ellipse at 50% 50%,
-        rgba(27, 153, 139, 0.18) 0%,
-        rgba(27, 153, 139, 0.12) 25%,
-        rgba(27, 153, 139, 0.06) 45%,
-        transparent 65%);
+        rgba(27, 153, 139, 0.35) 0%,
+        rgba(27, 153, 139, 0.25) 20%,
+        rgba(27, 153, 139, 0.15) 40%,
+        rgba(27, 153, 139, 0.08) 55%,
+        transparent 70%);
     border-radius: 58% 42% 49% 51% / 52% 60% 40% 48%;
     z-index: 0;
 }
@@ -470,13 +473,14 @@ p {
     position: absolute;
     bottom: -25%;
     right: -12%;
-    width: 55%;
-    height: 65%;
+    width: 70%;
+    height: 80%;
     background: radial-gradient(ellipse at 45% 55%,
-        rgba(239, 118, 122, 0.2) 0%,
-        rgba(239, 118, 122, 0.13) 28%,
-        rgba(239, 118, 122, 0.07) 48%,
-        transparent 68%);
+        rgba(212, 165, 165, 0.4) 0%,
+        rgba(212, 165, 165, 0.28) 22%,
+        rgba(212, 165, 165, 0.18) 40%,
+        rgba(212, 165, 165, 0.1) 55%,
+        transparent 70%);
     border-radius: 47% 53% 58% 42% / 61% 44% 56% 39%;
     z-index: 0;
 }
@@ -545,13 +549,14 @@ p {
     position: absolute;
     top: -15%;
     left: -10%;
-    width: 48%;
-    height: 55%;
+    width: 62%;
+    height: 70%;
     background: radial-gradient(ellipse at 55% 45%,
-        rgba(114, 42, 59, 0.12) 0%,
-        rgba(114, 42, 59, 0.08) 25%,
-        rgba(114, 42, 59, 0.04) 45%,
-        transparent 65%);
+        rgba(114, 42, 59, 0.22) 0%,
+        rgba(114, 42, 59, 0.16) 22%,
+        rgba(114, 42, 59, 0.1) 40%,
+        rgba(114, 42, 59, 0.05) 55%,
+        transparent 70%);
     border-radius: 62% 38% 45% 55% / 53% 59% 41% 47%;
     z-index: 0;
 }
