@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <!-- Background (transparent) -->
+
+  <!-- Decorative botanical elements - Left side -->
+  <g fill="#722A3B" opacity="0.8">
+    <!-- Branch with leaves -->
+    <path d="M 60 100 Q 65 85 70 75 Q 75 65 80 60" stroke="#722A3B" stroke-width="2" fill="none"/>
+
+    <!-- Leaves -->
+    <ellipse cx="55" cy="90" rx="8" ry="14" transform="rotate(-35 55 90)"/>
+    <ellipse cx="62" cy="80" rx="7" ry="12" transform="rotate(-25 62 80)"/>
+    <ellipse cx="72" cy="70" rx="8" ry="13" transform="rotate(-20 72 70)"/>
+
+    <!-- Small berries -->
+    <circle cx="68" cy="75" r="3"/>
+    <circle cx="75" cy="68" r="2.5"/>
+  </g>
+
+  <!-- Main text "Wyld Growth" -->
+  <text x="200" y="95" font-family="Georgia, serif" font-size="52" font-weight="600" fill="#722A3B" text-anchor="middle" letter-spacing="2">
+    Wyld Growth
+  </text>
+
+  <!-- Decorative wave/underline -->
+  <path d="M 120 115 Q 140 110 160 115 T 200 115 T 240 115 T 280 115"
+        stroke="#1B998B"
+        stroke-width="3"
+        fill="none"
+        opacity="0.7"/>
+
+  <!-- Tagline -->
+  <text x="200" y="140" font-family="Georgia, serif" font-size="16" font-style="italic" fill="#1B998B" text-anchor="middle" letter-spacing="1">
+    take root • grow wild
+  </text>
+
+  <!-- Decorative botanical elements - Right side -->
+  <g fill="#1B998B" opacity="0.8">
+    <!-- Branch with leaves -->
+    <path d="M 340 100 Q 335 115 330 125 Q 325 135 320 140" stroke="#1B998B" stroke-width="2" fill="none"/>
+
+    <!-- Leaves -->
+    <ellipse cx="345" cy="110" rx="8" ry="14" transform="rotate(35 345 110)"/>
+    <ellipse cx="338" cy="120" rx="7" ry="12" transform="rotate(25 338 120)"/>
+    <ellipse cx="328" cy="130" rx="8" ry="13" transform="rotate(20 328 130)"/>
+
+    <!-- Small botanical accents -->
+    <circle cx="332" cy="125" r="3"/>
+    <circle cx="325" cy="132" r="2.5"/>
+  </g>
+
+  <!-- Additional decorative dots -->
+  <circle cx="110" cy="100" r="2" fill="#EF767A" opacity="0.6"/>
+  <circle cx="115" cy="105" r="1.5" fill="#EF767A" opacity="0.6"/>
+  <circle cx="290" cy="100" r="2" fill="#EF767A" opacity="0.6"/>
+  <circle cx="285" cy="105" r="1.5" fill="#EF767A" opacity="0.6"/>
+
+  <!-- Roots element at bottom -->
+  <g stroke="#722A3B" stroke-width="1.5" fill="none" opacity="0.4">
+    <path d="M 195 155 Q 190 165 185 175"/>
+    <path d="M 200 155 Q 200 165 200 175"/>
+    <path d="M 205 155 Q 210 165 215 175"/>
+  </g>
+</svg>
