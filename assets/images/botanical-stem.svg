@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 800" width="400" height="800">
+  <!-- Large botanical stem illustration - inspired by mockup -->
+
+  <!-- Main stem -->
+  <path d="M 200 750 Q 190 650 200 550 Q 210 450 200 350 Q 195 250 200 150 Q 202 50 200 10"
+        stroke="#D4A5A5"
+        stroke-width="8"
+        fill="none"
+        opacity="0.4"
+        stroke-linecap="round"/>
+
+  <!-- Large leaves - flowing and organic -->
+
+  <!-- Left side leaves -->
+  <ellipse cx="120" cy="200" rx="60" ry="120"
+           transform="rotate(-35 120 200)"
+           fill="#D4A5A5"
+           opacity="0.35"/>
+
+  <ellipse cx="140" cy="320" rx="50" ry="100"
+           transform="rotate(-25 140 320)"
+           fill="#D4A5A5"
+           opacity="0.3"/>
+
+  <ellipse cx="130" cy="450" rx="55" ry="110"
+           transform="rotate(-30 130 450)"
+           fill="#D4A5A5"
+           opacity="0.35"/>
+
+  <ellipse cx="145" cy="580" rx="48" ry="95"
+           transform="rotate(-20 145 580)"
+           fill="#D4A5A5"
+           opacity="0.3"/>
+
+  <!-- Right side leaves -->
+  <ellipse cx="280" cy="150" rx="65" ry="125"
+           transform="rotate(40 280 150)"
+           fill="#D4A5A5"
+           opacity="0.35"/>
+
+  <ellipse cx="260" cy="280" rx="52" ry="105"
+           transform="rotate(30 260 280)"
+           fill="#D4A5A5"
+           opacity="0.35"/>
+
+  <ellipse cx="270" cy="410" rx="58" ry="115"
+           transform="rotate(35 270 410)"
+           fill="#D4A5A5"
+           opacity="0.3"/>
+
+  <ellipse cx="265" cy="540" rx="50" ry="100"
+           transform="rotate(25 265 540)"
+           fill="#D4A5A5"
+           opacity="0.35"/>
+
+  <ellipse cx="255" cy="670" rx="55" ry="108"
+           transform="rotate(28 255 670)"
+           fill="#D4A5A5"
+           opacity="0.3"/>
+
+  <!-- Small accent leaves -->
+  <ellipse cx="165" cy="120" rx="35" ry="65"
+           transform="rotate(-15 165 120)"
+           fill="#D4A5A5"
+           opacity="0.25"/>
+
+  <ellipse cx="235" cy="100" rx="38" ry="70"
+           transform="rotate(20 235 100)"
+           fill="#D4A5A5"
+           opacity="0.25"/>
+
+  <!-- Leaf veins for detail (subtle) -->
+  <path d="M 120 200 L 90 180" stroke="#C49494" stroke-width="2" opacity="0.2" stroke-linecap="round"/>
+  <path d="M 120 200 L 85 210" stroke="#C49494" stroke-width="2" opacity="0.2" stroke-linecap="round"/>
+  <path d="M 280 150 L 310 135" stroke="#C49494" stroke-width="2" opacity="0.2" stroke-linecap="round"/>
+  <path d="M 280 150 L 315 165" stroke="#C49494" stroke-width="2" opacity="0.2" stroke-linecap="round"/>
+</svg>
